@@ -371,6 +371,16 @@ a:hover {
     box-shadow: var(--shadow-lg);
 }
 
+.gallery-item a {
+    display: block;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.gallery-item a:hover {
+    transform: scale(1.02);
+}
+
 .gallery-item img {
     width: 100%;
     height: auto;
